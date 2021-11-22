@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.letterButton {
+    min-width: 80px;
+    height: 80px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.letterButton:hover {
+    background-color: #1782FF;
+    transition: 0.5s;
+}
+
+#input {
+    width: 65%;
+    height: 50px;
+    margin: 30px auto;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 1%;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+
+.active {
+    background-color: #1782FF;
+    transition: 0.5s;
+}
